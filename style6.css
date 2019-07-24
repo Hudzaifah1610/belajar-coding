@@ -1,0 +1,225 @@
+body {
+    background: lightblue;
+    margin: 0;
+}
+
+.header {
+    background: blue;
+    width: 1160px;
+    height: 70px;  
+    margin: 0 0 0 100px;
+    position: sticky;
+    border-radius: 5px;
+}
+
+.header img {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin: 20px 15px 0 15px;
+}
+
+.button {
+    background: yellow;
+    color: blue;
+    font-size: 17px;
+    border: none;
+    cursor: pointer; 
+    padding: 15px;
+    margin: 10px 0 0 10px;
+}
+
+.button:hover {
+    background: rgb(27, 235, 165);
+}
+
+.dropdown {
+    position:none;
+    display: inline-block;
+}
+
+.dropdown-child {
+    display: none;
+    background: rgb(59, 48, 48);
+    min-width: 100px;
+    padding: 10px;
+}
+
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+a:hover {
+    background: rebeccapurple;
+}
+
+.container {
+    background: rgb(47, 233, 47);
+    width: 900px;
+    height: 3160px;
+    margin: 10px 5px 0 100px;
+    float: left;
+    border-radius: 5px;
+    /* padding: 4px; */
+}
+
+.gambar {
+    /* background: red; */
+    width: 600px;
+    height: 500px;
+    margin: 10px 0 10px 10px;
+}
+
+.gambar img {
+    width: 600px;
+    height: 500px;
+}
+
+.content {
+    /* background: violet; */
+    width: 900px;
+    height: 2200px;
+    float: left;
+}
+
+.content  p {
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 20px;    
+}
+
+h1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+.penulis {
+    font-size: 14px;
+    margin: -20px 0 0 10px;
+}
+
+.penulis a {
+    text-decoration: none;
+    background: none;
+}
+
+.content img {
+    width: 300px;
+    height: 300px;
+    float: left;
+    float: right;
+    margin:0 10px 0 10px;
+
+}
+
+.content .art img {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.komentar {
+    /* background: rgb(235, 238, 72); */
+    width: 900px;
+    height: 400px;
+    float: left;
+}
+
+.komentar p  {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.komentar p1 {
+    margin-left: 10px;
+}
+
+.komentar form {
+    margin-left: 10px;
+}
+
+.komentar a {
+    background: rgb(18, 241, 204);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.komentar a:hover {
+    background: salmon;
+}
+
+.footer {
+    background: grey;
+    width: 900px;
+    height: 50px;
+    float: left;
+    text-align: center;color: white;
+}
+
+.samping1 {
+    background: yellow;
+    width: 250px;
+    height: 500px;
+    float: left; 
+    float: right;
+    margin: 10px 90px 10px 0;
+    border-radius: 10px;
+    border: 5px;
+}
+
+h4 {
+    text-align: justify;
+    margin: 20px 2px 2px 10px;    
+}
+
+.samping1 h4 a {
+    background: none;
+    text-decoration: none;
+    color: rgb(114, 250, 186);
+}
+
+.samping1 h4 a:hover{
+    color: salmon;
+}
+
+.samping1 ul a {
+    text-decoration: none;
+    color: blue
+}
+
+.samping1 ul a:hover{
+    color: rgb(248, 39, 109)
+}
+
+/* .samping1 img{
+    width: 300px;
+    height: 500px;
+    float: right
+} */
+
+.samping2 {
+    background: rgb(252, 65, 90);
+    width: 250px;
+    height: 500px;
+    float: left;
+    float: right;
+    margin: 10px 90px 10px 0;
+    border-radius: 5px;
+}
+
+.samping2 img {
+    width: 230px;
+    height: 500px;
+    padding: 10px;
+}
